@@ -1,0 +1,19 @@
+{
+  "name": "super-massive-bot",
+  "version": "1.0.0",
+  "description": "a simple discord server, super massive",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "deploy" : "node deploy-commands.js",
+    "delete" : "node delete-commands.js",
+    "start": "node index.js"
+  },
+  "author": "dansb",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1"
+  }
+}
